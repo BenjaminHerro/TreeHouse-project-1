@@ -21,13 +21,14 @@ function getRandomQuote(myObj) {
 
 function fadeIn(target) {
 	var myOpacity = 0.1;
-	totalDiv.style.display = 'block';
+	totalDiv.style.display = 'none';
 	var timer = setInterval(function() {
 		if (myOpacity >= 1) {
 			clearInterval(timer);
 		}
 		totalDiv.style.opacity = myOpacity;
 		myOpacity += myOpacity * 0.1;
+		totalDiv.style.display = 'block';
 	}, 50);
 }
 
