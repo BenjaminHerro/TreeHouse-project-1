@@ -2,9 +2,9 @@ var totalDiv = document.getElementById('quote-box');
 var colourRef = document.body.style;
 var buttonRef = document.getElementById('loadQuote').style;
 //these 3 variables were to be used with the colour transitioner.
-// var initR = 137;
-// var initG = 204;
-// var initB = 114;
+var initR = 137;
+var initG = 204;
+var initB = 114;
 var intervalID = window.setInterval(function() {
 	printQuote();
 	fadeIn(totalDiv);
@@ -28,45 +28,44 @@ function getRandomColour() {
 	var r = Math.floor(Math.random() * 256);
 	var g = Math.floor(Math.random() * 256);
 	var b = Math.floor(Math.random() * 256);
-	// var rDiff = Math.abs(r - initR);
-	// var gDiff = Math.abs(g - initG);
-	// var bDiff = Math.abs(b - initB);
-	// var timer = setInterval(function() {
-	// 	if (rDiff === 0 && gDiff === 0 && bDiff === 0) {
-	// 			clearInterval(timer);
-	// 	} else {
-	// 			if (r > initR) {
-	// 			rDiff -= 1;
-	// 			initR += 1;
-	// 		} else if (r < initR) {
-	// 			rDiff -= 1;
-	// 			initR -= 1;
-	// 		} else if (r === initR) {
-	// 			rDiff = 0;
-	// 		};
-	// 		if (g > initG) {
-	// 			gDiff -= 1;
-	// 			initG += 1;
-	// 		} else if (g < initG) {
-	// 			gDiff -= 1;
-	// 			initG -= 1;
-	// 		} else if (g === initG) {
-	// 			gDiff = 0;
-	// 		};
-	// 		if (b > initB) {
-	// 			bDiff -= 1;
-	// 			initB += 1;
-	// 		} else if (b < initB) {
-	// 			bDiff -= 1;
-	// 			initB -= 1;
-	// 		} else if (b === initB) {
-	// 			bDiff = 0;
-	// 		};
-	// 	};
-	// 	// colourRef.backgroundColor = 'rgb('+ initR + ',' + initG + ',' + initB + ')';
-	// 	// buttonRef.backgroundColor = 'rgb('+ initR + ',' + initG + ',' + initB + ')';
-	// }, 10);
-	colourRef.backgroundColor = 'rgb('+ r + ',' + g + ',' + b + ')';
+	var rDiff = Math.abs(r - initR);
+	var gDiff = Math.abs(g - initG);
+	var bDiff = Math.abs(b - initB);
+	var timer = setInterval(function() {
+		if (rDiff === 0 && gDiff === 0 && bDiff === 0) {
+				clearInterval(timer);
+		} else {
+				if (r > initR) {
+				rDiff -= 1;
+				initR += 1;
+			} else if (r < initR) {
+				rDiff -= 1;
+				initR -= 1;
+			} else if (r === initR) {
+				rDiff = 0;
+			};
+			if (g > initG) {
+				gDiff -= 1;
+				initG += 1;
+			} else if (g < initG) {
+				gDiff -= 1;
+				initG -= 1;
+			} else if (g === initG) {
+				gDiff = 0;
+			};
+			if (b > initB) {
+				bDiff -= 1;
+				initB += 1;
+			} else if (b < initB) {
+				bDiff -= 1;
+				initB -= 1;
+			} else if (b === initB) {
+				bDiff = 0;
+			};
+		};
+		colourRef.backgroundColor = 'rgb('+ initR + ',' + initG + ',' + initB + ')';
+	}, 10);
+	// colourRef.backgroundColor = 'rgb('+ r + ',' + g + ',' + b + ')';
 };
 
 //fade effect function for transitioning between quotes (either when button is pressed, or after 12 seconds since last change)
