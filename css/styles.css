@@ -57,12 +57,11 @@ body {
   font-style: normal;
 }
 .genre {
-  font-size: 1.5rem;;
+  font-size: 1.75rem;;
   font-style: bold;
   letter-spacing: 0.05em;
   line-height: 1.1;
   text-align: center;
-  padding: 200px
   margin-right: 2em;
 }
 .genre:before {

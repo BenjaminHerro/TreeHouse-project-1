@@ -9,6 +9,7 @@ var intervalID = window.setInterval(function() {
 	printQuote();
 	fadeIn(totalDiv);
 }, 12000);
+//added getrandomcolour in second interval because it seemed to reduce the time it took for the colour transitioner to jam.
 var intervalID2 = window.setInterval(getRandomColour, 12000);
 
 //gets a random quote object from the quotes array in quotes_obj.js. This file was built from a raw text file of quotes directly copied from 'http://www.cs.virginia.edu/~robins/quotes.html'
@@ -72,9 +73,9 @@ function getRandomColour() {
 function fadeIn(target) {
 	var myOpacity = 0.1;
 	totalDiv.style.display = 'none';
-	var timer = setInterval(function() {
+	var fader = setInterval(function() {
 		if (myOpacity >= 1) {
-			clearInterval(timer);
+			clearInterval(fader);
 		}
 		totalDiv.style.opacity = myOpacity;
 		myOpacity += myOpacity * 0.1;
