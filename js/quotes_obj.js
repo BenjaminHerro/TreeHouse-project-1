@@ -9,127 +9,148 @@ var quotes = [
 			quote:"Glory is fleeting, but obscurity is forever.",
 			source:"Napoleon Bonaparte",
 			year:"(1769-1821)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts.",
 			source:"Bertrand Russell",
 			year:"(1872-1970)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Victory goes to the player who makes the next-to-last mistake.",
 			source:"Chessmaster Savielly Grigorievitch Tartakower",
 			year:"(1887-1956)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Don't be so humble - you are not that great.",
 			source:"Golda Meir",
 			year:"(1898-1978)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"His ignorance is encyclopedic",
 			source:"Abba Eban",
 			year:"(1915-2002)",
-			citation:"None"
+			citation:"None",
+			genre: 'Humour'
 		},
 		{
 			quote:"If a man does his best, what else is there?",
 			source:"General George S. Patton",
 			year:"(1885-1945)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Political correctness is tyranny with manners.",
 			source:"Charlton Heston",
 			year:"(1924-2008)",
-			citation:"None"
+			citation:"None",
+			genre: 'Politics'
 		},
 		{
 			quote:"You can avoid reality, but you cannot avoid the consequences of avoiding reality.",
 			source:"Ayn Rand",
 			year:"(1905-1982)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"When one person suffers from a delusion it is called insanity; when many people suffer from a delusion it is called religion.",
 			source:"Robert Pirsig",
 			year:"(1948-)",
-			citation:"None"
+			citation:"None",
+			genre:"Religion"
 		},
 		{
 			quote:"Sex and religion are closer to each other than either might prefer.",
 			source:"Saint Thomas More",
 			year:"(1478-1535)",
-			citation:"None"
+			citation:"None",
+			genre: 'Philosophy'
 		},
 		{
 			quote:"The greater danger for most of us lies not in setting our aim too high and falling short, but in setting our aim too low, and achieving our mark.",
 			source:"Michelangelo di Lodovico Buonarroti Simoni",
 			year:"(1475-1564)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"I can write better than anybody who can write faster, and I can write faster than anybody who can write better.",
 			source:"A. J. Liebling",
 			year:"(1904-1963)",
-			citation:"None"
+			citation:"None",
+			genre: 'Humour'
 		},
 		{
 			quote:"People demand freedom of speech to make up for the freedom of thought which they avoid.",
 			source:"Soren Aabye Kierkegaard",
 			year:"(1813-1855)",
-			citation:"None"
+			citation:"None",
+			genre: 'Politics'
 		},
 		{
 			quote:"Give me chastity and continence, but not yet.",
 			source:"Saint Augustine",
 			year:"(354-430)",
-			citation:"None"
+			citation:"None",
+			genre: 'Religion'
 		},
 		{
 			quote:"Not everything that can be counted counts, and not everything that counts can be counted.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"A lie gets halfway around the world before the truth has a chance to get its pants on.",
 			source:"Sir Winston Churchill",
 			year:"(1874-1965)",
-			citation:"None"
+			citation:"None",
+			genre: 'Politics'
 		},
 		{
 			quote:"You may not be interested in war, but war is interested in you.",
 			source:"Leon Trotsky",
 			year:"(1879-1940)",
-			citation:"None"
+			citation:"None",
+			genre: 'Politics'
 		},
 		{
 			quote:"I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.",
 			source:"Galileo Galilei",
 			year:"(1564-1642)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"We are all atheists about most of the gods humanity has ever believed in. Some of us just go one god further.",
 			source:"Richard Dawkins",
 			year:"(1941-)",
-			citation:"None"
+			citation:"None",
+			genre: 'Religion'
 		},
 		{
 			quote:"The artist is nothing without the gift, but the gift is nothing without work.",
 			source:"Emile Zola",
 			year:"(1840-1902)",
-			citation:"None"
+			citation:"None",
+			genre: 'Art'
 		},
 		{
 			quote:"This book fills a much-needed gap.",
@@ -145,75 +166,87 @@ var quotes = [
 		},
 		{
 			quote:"I'm living so far beyond my income that we may almost be said to be living apart.",
-			source:"e e cummings",
+			source:"E. E. Cummings",
 			year:"(1894-1962)",
-			citation:"None"
+			citation:"None",
+			genre: 'Humour'
 		},
 		{
 			quote:"Give me a museum and I'll fill it.",
 			source:"Pablo Picasso",
 			year:"(1881-1973)",
-			citation:"None"
+			citation:"None",
+			genre: 'Art'
 		},
 		{
 			quote:"Assassins!",
 			source:"Arturo Toscanini",
 			year:"(1867-1957)",
-			citation:"to his orchestra"
+			citation:"to his orchestra",
+			genre: 'Music'
 		},
 		{
 			quote:"I'll moider da bum.",
 			source:"Heavyweight boxer Tony Galento",
 			year:"None",
-			citation:"when asked what he thought of William Shakespeare"
+			citation:"when asked what he thought of William Shakespeare",
+			genre: 'Humour'
 		},
 		{
 			quote:"In theory, there is no difference between theory and practice. But in practice, there is.",
 			source:"Yogi Berra",
 			year:"None",
-			citation:"None"
+			citation:"None",
+			genre: 'Philosophy'
 		},
 		{
 			quote:"I find that the harder I work, the more luck I seem to have.",
 			source:"Thomas Jefferson",
 			year:"(1743-1826)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Each problem that I solved became a rule which served afterwards to solve other problems.",
 			source:"Rene Descartes",
 			year:"(1596-1650)",
-			citation:"None"
+			citation:"None",
+			genre: 'Philosophy'
 		},
 		{
 			quote:"In the End, we will remember not the words of our enemies, but the silence of our friends.",
 			source:"Martin Luther King Jr.",
 			year:"(1929-1968)",
-			citation:"None"
+			citation:"None",
+			genre: 'Politics'
 		},
 		{
 			quote:"Whether you think that you can, or that you can't, you are usually right.",
 			source:"Henry Ford",
 			year:"(1863-1947)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Do, or do not. There is no 'try'.",
 			source:"Yoda",
 			year:"None",
-			citation:"The Empire Strikes Back"
+			citation:"The Empire Strikes Back",
+			genre: 'Movies/Life'
 		},
 		{
 			quote:"The only way to get rid of a temptation is to yield to it.",
 			source:"Oscar Wilde",
 			year:"(1854-1900)",
-			citation:"None"
+			citation:"None",
+			genre: 'Humour'
 		},
 		{
 			quote:"Don't stay in bed, unless you can make money in bed.",
 			source:"George Burns",
 			year:"(1896-1996)",
-			citation:"None"
+			citation:"None",
+			genre: 'Business'
 		},
 		{
 			quote:"I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.",
@@ -225,13 +258,15 @@ var quotes = [
 			quote:"There are no facts, only interpretations.",
 			source:"Friedrich Nietzsche",
 			year:"(1844-1900)",
-			citation:"None"
+			citation:"None",
+			genre: 'Philosophy'
 		},
 		{
 			quote:"Nothing in the world is more dangerous than sincere ignorance and conscientious stupidity.",
 			source:"Martin Luther King Jr.",
 			year:"(1929-1968)",
-			citation:"None"
+			citation:"None",
+			genre: 'Politics'
 		},
 		{
 			quote:"The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense.",
@@ -243,49 +278,57 @@ var quotes = [
 			quote:"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows away your whole leg.",
 			source:"Bjarne Stroustrup",
 			year:"None",
-			citation:"None"
+			citation:"None",
+			genre: 'Computer Science'
 		},
 		{
 			quote:"A mathematician is a device for turning coffee into theorems.",
 			source:"Paul Erdos",
 			year:"(1913-1996)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"Problems worthy of attack prove their worth by fighting back.",
 			source:"Paul Erdos",
 			year:"(1913-1996)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Happiness equals reality minus expectations.",
 			source:"Tom Magliozzi",
 			year:"(1937-2014)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"Try to learn something about everything and everything about something.",
 			source:"Thomas Henry Huxley",
 			year:"(1825-1895)",
-			citation:"None"
+			citation:"None",
+			genre: 'Education'
 		},
 		{
 			quote:"Dancing is silent poetry.",
 			source:"Simonides",
 			year:"(556-468bc)",
-			citation:"None"
+			citation:"None",
+			genre: 'Performing Arts'
 		},
 		{
 			quote:"The only difference between me and a madman is that I'm not mad.",
 			source:"Salvador Dali",
 			year:"(1904-1989)",
-			citation:"None"
+			citation:"None",
+			genre: 'Art'
 		},
 		{
 			quote:"If you can't get rid of the skeleton in your closet, you'd best teach it to dance.",
 			source:"George Bernard Shaw",
 			year:"(1856-1950)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		},
 		{
 			quote:"But at my back I always hear Time's winged chariot hurrying near.",
@@ -327,7 +370,8 @@ var quotes = [
 			quote:"If there were no priests, people would be more religious.",
 			source:"Voltaire",
 			year:"(1694-1778)",
-			citation:"None"
+			citation:"None",
+			genre:"Religion"
 		},
 		{
 			quote:"Against stupidity, the gods themselves contend in vain.",
@@ -585,13 +629,15 @@ var quotes = [
 			quote:"The significant problems we face cannot be solved at the same level of thinking we were at when we created them.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"Basically, I no longer work for anything but the sensation I have while working.",
 			source:"Albert Giacometti",
 			year:"None",
-			citation:"None"
+			citation:"None",
+			genre: 'Art'
 		},
 		{
 			quote:"There's a limit to how many times you can read how great you are and what an inspiration you are, but I'm not there yet.",
@@ -717,7 +763,8 @@ var quotes = [
 			quote:"It was the experience of mystery -- even if mixed with fear -- that engendered religion.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre:"Religion"
 		},
 		{
 			quote:"If everything seems under control, you're just not going fast enough.",
@@ -873,7 +920,8 @@ var quotes = [
 			quote:"It has become appallingly obvious that our technology has exceeded our humanity.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"The secret of success is to know something nobody else knows.",
@@ -963,7 +1011,8 @@ var quotes = [
 			quote:"Reality is merely an illusion, albeit a very persistent one.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Philosophy'
 		},
 		{
 			quote:"One of the symptoms of an approaching nervous breakdown is the belief that one's work is terribly important.",
@@ -987,7 +1036,8 @@ var quotes = [
 			quote:"Make everything as simple as possible, but not simpler.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Science'
 		},
 		{
 			quote:"What do you take me for, an idiot?",
@@ -1647,7 +1697,8 @@ var quotes = [
 			quote:"I think there is a world market for maybe five computers.",
 			source:"Thomas Watson",
 			year:"(1874-1956)",
-			citation:"Chairman of IBM 1943"
+			citation:"Chairman of IBM 1943",
+			genre:"Computer Science"
 		},
 		{
 			quote:"I think it would be a good idea.",
@@ -1689,7 +1740,8 @@ var quotes = [
 			quote:"There is no reason anyone would want a computer in their home.",
 			source:"Ken Olson",
 			year:"(1977)",
-			citation:"president chairman and founder of Digital Equipment Corp"
+			citation:"president chairman and founder of Digital Equipment Corp",
+			genre:"Computer Science"
 		},
 		{
 			quote:"The concept is interesting and wellformed, but in order to earn better than a 'C', the idea must be feasible.",
@@ -1923,25 +1975,29 @@ var quotes = [
 			quote:"With or without religion, good people can behave well and bad people can do evil; but for good people to do evil, that takes religion.",
 			source:"Steven Weinberg",
 			year:"(1933-)",
-			citation:"None"
+			citation:"None",
+			genre:"Religion"
 		},
 		{
 			quote:"If you were plowing a field, which would you rather use? Two strong oxen or 1024 chickens?",
 			source:"Seymour Cray",
 			year:"(1925-1996)",
-			citation:"father of supercomputing"
+			citation:"father of supercomputing",
+			genre:"Computer Science"
 		},
 		{
 			quote:"#3 pencils and quadrille pads.",
 			source:"Seymoure Cray",
 			year:"(1925-1996)",
-			citation:"when asked what CAD tools he used to design the Cray I supercomputer; he also recommended using the back side of the pages so that the grid lines were not so dominant."
+			citation:"when asked what CAD tools he used to design the Cray I supercomputer; he also recommended using the back side of the pages so that the grid lines were not so dominant.",
+			genre:"Computer Science"
 		},
 		{
 			quote:"Interesting - I use a Mac to help me design the next Cray.",
 			source:"Seymoure Cray",
 			year:"(1925-1996)",
-			citation:"when he was told that Apple Inc. had recently bought a Cray supercomputer to help them design the next Mac."
+			citation:"when he was told that Apple Inc. had recently bought a Cray supercomputer to help them design the next Mac.",
+			genre:"Computer Science"
 		},
 		{
 			quote:"Your Highness, I have no need of this hypothesis.",
@@ -1983,6 +2039,7 @@ var quotes = [
 			quote:"There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
 			source:"Albert Einstein",
 			year:"(1879-1955)",
-			citation:"None"
+			citation:"None",
+			genre: 'Life'
 		}
 ]
