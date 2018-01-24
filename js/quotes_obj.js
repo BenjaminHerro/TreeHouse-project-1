@@ -159,12 +159,14 @@ var quotes = [
 			quote:"Assassins!",
 			source:"Arturo Toscanini",
 			year:"(1867-1957)",
-			citation:"to his orchestra"},
+			citation:"to his orchestra"
+		},
 		{
 			quote:"I'll moider da bum.",
 			source:"Heavyweight boxer Tony Galento",
 			year:"None",
-			citation:"when asked what he thought of William Shakespeare"},
+			citation:"when asked what he thought of William Shakespeare"
+		},
 		{
 			quote:"In theory, there is no difference between theory and practice. But in practice, there is.",
 			source:"Yogi Berra",
@@ -199,7 +201,8 @@ var quotes = [
 			quote:"Do, or do not. There is no 'try'.",
 			source:"Yoda",
 			year:"None",
-			citation:"The Empire Strikes Back"},
+			citation:"The Empire Strikes Back"
+		},
 		{
 			quote:"The only way to get rid of a temptation is to yield to it.",
 			source:"Oscar Wilde",
@@ -354,12 +357,14 @@ var quotes = [
 			quote:"I think 'Hail to the Chief' has a nice ring to it.",
 			source:"John F. Kennedy",
 			year:"(1917-1963)",
-			citation:"when asked what is his favorite song"},
+			citation:"when asked what is his favorite song"
+		},
 		{
 			quote:"I have nothing to declare except my genius.",
 			source:"Oscar Wilde",
 			year:"(1854-1900)",
-			citation:"upon arriving at U.S. customs 1882"},
+			citation:"upon arriving at U.S. customs 1882"
+		},
 		{
 			quote:"Human history becomes more and more a race between education and catastrophe.",
 			source:"H. G. Wells",
@@ -454,7 +459,8 @@ var quotes = [
 			quote:"Facts are the enemy of truth.",
 			source:"Don Quixote",
 			year:"None",
-			citation:"Man of La Mancha"},
+			citation:"Man of La Mancha"
+		},
 		{
 			quote:"When you do the common things in life in an uncommon way, you will command the attention of the world.",
 			source:"George Washington Carver",
@@ -495,7 +501,8 @@ var quotes = [
 			quote:"Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.",
 			source:"Sir Arthur Conan Doyle",
 			year:"(1859-1930)",
-			citation:"Sherlock Holmes"},
+			citation:"Sherlock Holmes"
+		},
 		{
 			quote:"Black holes are where God divided by zero.",
 			source:"Steven Wright",
@@ -572,7 +579,8 @@ var quotes = [
 			quote:"A people that values its privileges above its principles soon loses both.",
 			source:"Dwight D. Eisenhower",
 			year:"(1890-1969)",
-			citation:"Inaugural Address January 20 1953"},
+			citation:"Inaugural Address January 20 1953"
+		},
 		{
 			quote:"The significant problems we face cannot be solved at the same level of thinking we were at when we created them.",
 			source:"Albert Einstein",
@@ -643,7 +651,8 @@ var quotes = [
 			quote:"Once is happenstance. Twice is coincidence. Three times is enemy action.",
 			source:"Auric Goldfinger",
 			year:"(1908-1964)",
-			citation:"Goldfinger by Ian L. Fleming"},
+			citation:"Goldfinger by Ian L. Fleming"
+		},
 		{
 			quote:"To love oneself is the beginning of a lifelong romance",
 			source:"Oscar Wilde",
@@ -720,7 +729,8 @@ var quotes = [
 			quote:"I do not consider it an insult, but rather a compliment to be called an agnostic. I do not pretend to know where many ignorant men are sure -- that is all that agnosticism means.",
 			source:"Clarence Darrow",
 			year:"(1925)",
-			citation:"Scopes trial"},
+			citation:"Scopes trial"
+		},
 		{
 			quote:"Obstacles are those frightful things you see when you take your eyes off your goal.",
 			source:"Henry Ford",
@@ -785,7 +795,8 @@ var quotes = [
 			quote:"Fill what's empty, empty what's full, and scratch where it itches.",
 			source:"the Duchess of Windsor",
 			year:"None",
-			citation:"when asked what is the secret to a long and happy life"},
+			citation:"when asked what is the secret to a long and happy life"
+		},
 		{
 			quote:"First they ignore you, then they laugh at you, then they fight you, then you win.",
 			source:"Mahatma Gandhi",
@@ -934,7 +945,8 @@ var quotes = [
 			quote:"The mistakes are all waiting to be made.",
 			source:"chessmaster Savielly Grigorievitch Tartakower",
 			year:"(1887-1956)",
-			citation:"on the game's opening position"},
+			citation:"on the game's opening position"
+		},
 		{
 			quote:"It is unbecoming for young men to utter maxims.",
 			source:"Aristotle",
@@ -945,7 +957,8 @@ var quotes = [
 			quote:"Grove giveth and Gates taketh away.",
 			source:"Bob Metcalfe",
 			year:"None",
-			citation:"inventor of Ethernet on the trend of hardware speedups not being able to keep up with software demands"},
+			citation:"inventor of Ethernet on the trend of hardware speedups not being able to keep up with software demands"
+		},
 		{
 			quote:"Reality is merely an illusion, albeit a very persistent one.",
 			source:"Albert Einstein",
@@ -980,7 +993,8 @@ var quotes = [
 			quote:"What do you take me for, an idiot?",
 			source:"General Charles de Gaulle",
 			year:"(1890-1970)",
-			citation:"when a journalist asked him if he was happy"},
+			citation:"when a journalist asked him if he was happy"
+		},
 		{
 			quote:"I heard someone tried the monkeys-on-typewriters bit trying for the plays of W. Shakespeare but all they got was the collected works of Francis Bacon.",
 			source:"Bill Hirst",
@@ -1279,7 +1293,8 @@ var quotes = [
 			quote:"Now I am become death, the destroyer of worlds.",
 			source:"Robert J. Oppenheimer",
 			year:"(1904-1967)",
-			citation:"citing from the Bhagavad Gita after witnessing the world's first nuclear explosion"},
+			citation:"citing from the Bhagavad Gita after witnessing the world's first nuclear explosion"
+		},
 		{
 			quote:"Happiness is good health and a bad memory.",
 			source:"Ingrid Bergman",
@@ -1320,7 +1335,8 @@ var quotes = [
 			quote:"It is time I stepped aside for a less experienced and less able man.",
 			source:"Professor Scott Elledge",
 			year:"None",
-			citation:"on his retirement from Cornell"},
+			citation:"on his retirement from Cornell"
+		},
 		{
 			quote:"Every day I get up and look through the Forbes list of the richest people in America. If I'm not there, I go to work.",
 			source:"Robert Orben",
@@ -1619,7 +1635,8 @@ var quotes = [
 			quote:"Ask her to wait a moment - I am almost done.",
 			source:"Carl Friedrich Gauss",
 			year:"(1777-1855)",
-			citation:"while working when informed that his wife is dying"},
+			citation:"while working when informed that his wife is dying"
+		},
 		{
 			quote:"A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.",
 			source:"Sir Winston Churchill",
@@ -1630,12 +1647,14 @@ var quotes = [
 			quote:"I think there is a world market for maybe five computers.",
 			source:"Thomas Watson",
 			year:"(1874-1956)",
-			citation:"Chairman of IBM 1943"},
+			citation:"Chairman of IBM 1943"
+		},
 		{
 			quote:"I think it would be a good idea.",
 			source:"Mahatma Gandhi",
 			year:"(1869-1948)",
-			citation:"when asked what he thought of Western civilization"},
+			citation:"when asked what he thought of Western civilization"
+		},
 		{
 			quote:"The only thing necessary for the triumph of evil is for good men to do nothing.",
 			source:"Edmund Burke",
@@ -1670,7 +1689,8 @@ var quotes = [
 			quote:"There is no reason anyone would want a computer in their home.",
 			source:"Ken Olson",
 			year:"(1977)",
-			citation:"president chairman and founder of Digital Equipment Corp"},
+			citation:"president chairman and founder of Digital Equipment Corp"
+		},
 		{
 			quote:"The concept is interesting and wellformed, but in order to earn better than a 'C', the idea must be feasible.",
 			source:"A Yale University management professor in response to student Fred Smith's paper proposing reliable overnight delivery service. Smith went on to found Federal Express Corp.",
@@ -1681,7 +1701,8 @@ var quotes = [
 			quote:"Who the hell wants to hear actors talk?",
 			source:"H. M. Warner",
 			year:"(1881-1958)",
-			citation:"founder of Warner Brothers in 1927"},
+			citation:"founder of Warner Brothers in 1927"
+		},
 		{
 			quote:"We don't like their sound, and guitar music is on the way out.",
 			source:"Decca Recording Co. rejecting the Beatles",
@@ -1758,12 +1779,14 @@ var quotes = [
 			quote:"The President has kept all of the promises he intended to keep.",
 			source:"Clinton aide George Stephanopolous",
 			year:"None",
-			citation:"speaking on Larry King Live"},
+			citation:"speaking on Larry King Live"
+		},
 		{
 			quote:"We're going to turn this team around 360 degrees.",
 			source:"Jason Kidd",
 			year:"None",
-			citation:"upon his drafting to the Dallas Mavericks"},
+			citation:"upon his drafting to the Dallas Mavericks"
+		},
 		{
 			quote:"Half this game is ninety percent mental.",
 			source:"Yogi Berra",
@@ -1816,7 +1839,8 @@ var quotes = [
 			quote:"My occupation now, I suppose, is jail inmate.",
 			source:"Unibomber Theodore Kaczynski",
 			year:"None",
-			citation:"when asked in court what his current profession was"},
+			citation:"when asked in court what his current profession was"
+		},
 		{
 			quote:"Woman was God's second mistake.",
 			source:"Friedrich Nietzsche",
@@ -1827,7 +1851,8 @@ var quotes = [
 			quote:"This isn't right, this isn't even wrong.",
 			source:"Wolfgang Pauli",
 			year:"(1900-1958)",
-			citation:"upon reading a young physicist's paper"},
+			citation:"upon reading a young physicist's paper"
+		},
 		{
 			quote:"For centuries, theologians have been explaining the unknowable in terms of the-not-worth-knowing.",
 			source:"Henry Louis Mencken",
@@ -1850,7 +1875,8 @@ var quotes = [
 			quote:"Now, now my good man, this is no time for making enemies.",
 			source:"Voltaire",
 			year:"(1694-1778)",
-			citation:"on his deathbed in response to a priest asking that he renounce Satan."},
+			citation:"on his deathbed in response to a priest asking that he renounce Satan."
+		},
 		{
 			quote:"Fill the unforgiving minute with sixty seconds worth of distance run.",
 			source:"Rudyard Kipling",
@@ -1903,27 +1929,32 @@ var quotes = [
 			quote:"If you were plowing a field, which would you rather use? Two strong oxen or 1024 chickens?",
 			source:"Seymour Cray",
 			year:"(1925-1996)",
-			citation:"father of supercomputing"},
+			citation:"father of supercomputing"
+		},
 		{
 			quote:"#3 pencils and quadrille pads.",
 			source:"Seymoure Cray",
 			year:"(1925-1996)",
-			citation:"when asked what CAD tools he used to design the Cray I supercomputer; he also recommended using the back side of the pages so that the grid lines were not so dominant."},
+			citation:"when asked what CAD tools he used to design the Cray I supercomputer; he also recommended using the back side of the pages so that the grid lines were not so dominant."
+		},
 		{
 			quote:"Interesting - I use a Mac to help me design the next Cray.",
 			source:"Seymoure Cray",
 			year:"(1925-1996)",
-			citation:"when he was told that Apple Inc. had recently bought a Cray supercomputer to help them design the next Mac."},
+			citation:"when he was told that Apple Inc. had recently bought a Cray supercomputer to help them design the next Mac."
+		},
 		{
 			quote:"Your Highness, I have no need of this hypothesis.",
 			source:"Pierre Laplace",
 			year:"(1749-1827)",
-			citation:"to Napoleon on why his works on celestial mechanics make no mention of God."},
+			citation:"to Napoleon on why his works on celestial mechanics make no mention of God."
+		},
 		{
 			quote:"I choose a block of marble and chop off whatever I don't need.",
 			source:"Francois-Auguste Rodin",
 			year:"(1840-1917)",
-			citation:"when asked how he managed to make his remarkable statues"},
+			citation:"when asked how he managed to make his remarkable statues"
+		},
 		{
 			quote:"The man who does not read good books has no advantage over the man who cannot read them.",
 			source:"Mark Twain",

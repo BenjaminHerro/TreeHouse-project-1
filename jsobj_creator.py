@@ -40,14 +40,14 @@ def create_jsobj_file():
         if i != len(quotes) - 1:
             if citations[i] != []:
                 json_file += '\t\t\tcitation:'
-                json_file += '"' + citations[i][0] + '"' + '},\n'
+                json_file += '"' + citations[i][0] + '"' + '\n\t\t},\n'
             else:
                 json_file += '\t\t\tcitation:'
                 json_file += '"None"' + '\n\t\t},\n'
         else:
             if citations[i] != []:
                 json_file += '\t\t\tcitation:'
-                json_file += '"' + citations[i][0] + '"' + '},\n'
+                json_file += '"' + citations[i][0] + '"' + '\n\t\t},\n'
             else:
                 json_file += '\t\t\tcitation:'
                 json_file += '"None"' + '\n\t\t}\n'
