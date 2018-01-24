@@ -95,15 +95,13 @@ function printQuote() {
 	if (calledQuote.year !== "None") {
 		spanHTML += '<span class="year">' + calledQuote.year + '</span>';
 	};
-	
-
 	rawHTML += '<p class="quote">' + calledQuote.quote + '</p>';
 	rawHTML += '<p class="source">' + calledQuote.source + spanHTML + '</p>';
 	if (calledQuote.genre) {
 		rawHTML += '<p class="genre">' + calledQuote.genre + '</p>';
 	};
 	totalDiv.innerHTML = rawHTML;
-	};
+};
 
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
